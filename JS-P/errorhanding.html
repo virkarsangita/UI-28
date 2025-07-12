@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>error</title>
+</head>
+<body>
+<script>
+    try{
+        debugger;
+        let a=30;
+        let b=30;
+        let ans =a*b;
+        document.write(ans+'<br>');
+    }
+    catch(abc){
+        console.log(abc);
+    }
+     finally{
+        document.write('finally calling');
+     }
+</script>
+</body>
+</html>

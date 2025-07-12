@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Event</title>
+</head>
+<body>
+    
+    <button onclick="abc()">click me</button>
+    <p id="demo"></p>
+    <p id="ans"></p>
+<script>
+
+    function abc(){
+        //alert('product with successfully')
+        document.getElementById('demo').innerHTML='No1:<input type="text"id="no1">No2:<input type="text" id="no2">&nbsp<button onclick="addition()">ADD</button>'
+
+    }
+
+    function addition(){
+        var no1=parseInt(document.getElementById('no1').value);
+        var no2=parseInt(document.getElementById('no2').value);
+
+        document.getElementById('ans').innerHTML=no1+no2;
+    }
+    
+</script>
+</body>
+</html>

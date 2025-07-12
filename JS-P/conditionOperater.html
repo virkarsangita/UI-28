@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <title>condition</title>
+
+</head>
+
+<body>
+    <div id="btn"></div>
+    <div id="purpleDiv"></div>
+    <div id="redDiv"></div>
+    <script>
+        document.getElementById('btn').innerHTML='<input type="text" id="color"><button onclick="abc()">click me</button>'
+
+        var x = 100;
+        //(x > 50 ? document.write('true') : document.write('false'));
+        //(x<50 ? document.write('true'):document.write('false'));
+
+       // var z= (x>50 ? '<h1>this the true value</h1>':'<h1>this is the false</h1>')
+      // var z =(x<50 ? '<h1>this the true value</h1>':'<h1>this is the false value</h1>')
+       // document.write(z);
+
+
+        var A = '<div style="width:70%;height:200px; background-color:purple"><h2 style="color:white; ">Have nice day</h2></div>'
+        var B = '<div style="width:70%;height:200px; background-color:red"><h2 style="color:white;  ">Have nice day</h2></div>'
+
+
+        function abc() {
+
+           var color= document.getElementById('color').value;
+
+           //document.getElementById('purpleDiv').innerHTML=" ";
+           //document.getElementById('redDiv').innerHTML=" ";
+
+           if(color==='purple'){
+            document.getElementById('purpleDiv').innerHTML=A;
+           }
+
+           else if(color==='red'){
+            document.getElementById('redDiv').innerHTML=B;
+           }
+
+           else{
+            document.write('This is not color');
+           }
+
+            
+        }
+    </script>
+
+</body>
+
+</html>
