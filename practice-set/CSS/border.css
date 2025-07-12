@@ -1,0 +1,11 @@
+.border{
+   /*border: 1px solid red;*/
+  /* border: 1px double red;*/
+ /* border: 1px dotted red;*/
+/* border: 1px dashed red;*/
+/*border: 1px groove red;*/
+border-bottom: 1px solid purple ;
+border-top: 1px solid green;
+border-left: 1px solid blue;
+border-right: 1px solid peru;
+}

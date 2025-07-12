@@ -1,0 +1,16 @@
+.pagination{
+    list-style-type: none;
+}
+
+
+
+.pagination li a{
+    background-color: orangered;
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}

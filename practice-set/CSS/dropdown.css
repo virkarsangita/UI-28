@@ -1,0 +1,35 @@
+.dropdownbtn{
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.dropdownMean a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    display: block;
+   
+}
+
+.dropdownMean a:hover{
+    background-color: purple;
+    color: white;
+   
+}
+
+.dropdownMean {
+    position: absolute;
+    display: none;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown:hover .dropdownMean{
+    display: block;
+}

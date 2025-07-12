@@ -1,0 +1,12 @@
+.text{
+  /*text-transform: capitalize;*/
+ /* text-transform: uppercase;*/
+ text-transform: lowercase;
+ /*text-decoration: line-through;*/
+ /*text-decoration: underline;*/
+ text-decoration: overline;
+ /*letter-spacing: 20px;*/
+ word-spacing: 20px;
+ line-height: 40px;
+ 
+}

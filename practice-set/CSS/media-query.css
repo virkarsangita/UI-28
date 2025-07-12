@@ -1,0 +1,155 @@
+.m1{
+    background-color: aqua;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+@media screen and (max-width:1200px) {
+    .m1{
+    background-color: red;
+    height: 200px;
+    width: 47%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 200px;
+    width: 47%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 200px;
+    width: 47%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 200px;
+    width: 47%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+}
+
+@media screen and (max-width:850px){
+    .m1{
+    background-color: aqua;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+
+}
+}
+
+@media screen and (max-width:550px) {
+    .m1{
+    background-color: aqua;
+    height: 300px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 300px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 300px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 300px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+}

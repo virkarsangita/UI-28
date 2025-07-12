@@ -1,0 +1,19 @@
+.circle{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.thumnail{
+    margin: auto;
+    display: block;
+    border: 4px groove red;
+    height: 250px;
+    width: 250px;
+}
+
+.thumnail:hover{
+    height: 270px;
+    width: 270px;
+}

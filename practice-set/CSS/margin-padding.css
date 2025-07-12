@@ -1,0 +1,27 @@
+
+/*********************margin*********************/
+
+/*.margin{
+    background-color: purple;
+   
+    height: 100px;
+    
+   /* margin: 10px;*/
+  /* margin: 20px 40px 60px 80px;*/
+ /* margin: 20px 40px 60px;*/
+ /*margin: 80px 40px;*/
+ /*margin: 50px;
+}*/
+
+/***********************padding*********************/
+
+.padding{
+    background-color: red;
+   color: white;
+    width: 370px;
+    /*padding:30px;*/
+   /* padding: 20px 40px 60px 80px;*/
+   /*padding: 20px 40px 60px;*/
+   padding: 40px 80px;
+
+}

@@ -1,0 +1,153 @@
+.m1{
+    background-color: aqua;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+@media screen and (min-width:1200px) {
+    .m1{
+    background-color: black;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+   
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+    
+
+}
+}
+
+@media screen and (min-width:850px) {
+    .m1{
+    background-color: blue;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+   
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 200px;
+    width: 22%;
+    float: left;
+    margin-left: 20px;
+}
+}
+
+@media screen and (min-width:550px){
+   
+    .m1{
+    background-color: black;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.m2{
+    background-color: #6913da;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.m3{
+    background-color: #ffd000;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+   
+}
+
+.m4{
+    background-color: #ff8800;
+    height: 200px;
+    width: 97%;
+    float: left;
+    margin-left: 20px;
+    
+
+}
+}
+    
+

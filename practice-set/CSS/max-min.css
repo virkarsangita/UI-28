@@ -1,0 +1,6 @@
+.max{
+    max-width: 50%;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}

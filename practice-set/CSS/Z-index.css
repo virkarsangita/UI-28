@@ -1,0 +1,14 @@
+.textposition{
+    color: red;
+    text-transform: capitalize;
+    position: fixed;
+    top: 200px;
+    left: 300px;
+}
+
+.maindiv{
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    left: 300px;
+}

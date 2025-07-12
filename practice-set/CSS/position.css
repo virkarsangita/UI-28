@@ -1,0 +1,73 @@
+/*.absoulte{
+    background-color: purple;
+    height: 100px;
+    width: 200px;
+   position: absolute;
+   top: 25px;
+   left: 30px;
+
+   /*top: 30px;
+   right: 30px;*/
+
+  /* bottom: 30px;
+   left: 30px;*/
+
+  /* right: 30px;
+   bottom: 30px;
+}*/
+
+.fixed{
+    background-color: purple;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+
+.sticky{
+    background-color: orangered;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+
+/******************realtive*************/
+
+.A{
+    background-color: orangered;
+    height: 200px;
+    width: 50%;
+float: left;
+position: relative;
+}
+
+.A1{
+background-color: black;
+height: 150px;
+width: 90%;
+position: absolute;
+top: 25px;
+left: 30px;
+float: left;
+}
+
+.A2{
+    background-color: white;
+    height: 100px;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 90px;
+}
+
+
+.B{
+    background-color: green;
+    height: 200px;
+    width: 50%;
+    float: left;
+}
