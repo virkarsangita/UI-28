@@ -1,0 +1,8 @@
+.msg{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
