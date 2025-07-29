@@ -1,31 +1,64 @@
 <!DOCTYPE html>
+
 <head>
-    <title>string</title>
+    <title>Stringmethod</title>
 </head>
+
 <body>
-<script>
-    /****************length*****************/
-    let x="hello how are you";
-    console.log(x.length);
+    <script>
+        let x = "hello have nice day"
+        console.log(x.length);
 
-    let x1="hello how are you"
-    console.log(x1.toUpperCase());
+        let x1 = "hello have nice day"
+        console.log(x1.toLowerCase());
 
-    let x2="hello how are you"
-    console.log(x2.toLowerCase());
+        let x2 = "hello have nice day"
+        console.log(x2.toUpperCase());
 
-    let x3="hello how are you"
-    //console.log(x3.slice(-11,-6));
-    console.log(x3.slice(0,5));
+        let x3 = "hello have nice day"
+        console.log(x3.search('day'));
+        // console.log(x3.search(12));
 
-    let x4="hello how are you"
-    console.log(x4.repeat(25));
+        let x4 = "hello have nice day"
+        console.log(x4.slice(0, 5));
+        // console.log(x4.slice(-11,-6));
 
-    let x5="hello how are you"
-    console.log(x5.replace('how are you','good morning have nice day'));
+        let x5 = "hello have nice day"
+        console.log(x5.repeat(6));
 
-    let x6="hello how are you";
-    console.log(x6.search('you'));
-</script>
+        let x6 = "hello have nice day"
+        console.log(x6.replace('nice', 'good'));
+
+        let x7 = "hello have nice day"
+        console.log(x7.indexOf('have'));
+
+        let x8 = "hello have nice day"
+        console.log(x8.concat('developer guru'));
+
+        let x9 = "hello have nice day "
+        console.log(x9.trim());
+
+        let x10 = "hello have nice day"
+        console.log(x10.match('NIce'));
+
+        let x11 = "hello have nice day"
+        //console.log(x11.includes('DAY'));
+        console.log(x11.includes('day'));
+
+        let x12 = "hello have nice day"
+        let x13 = (x12.split(''));
+        console.log(x12.split(''));
+        console.log(x13[3]);
+
+        let x14 = "hello have nice day"
+        console.log(x14.toString());
+
+        let x15 = "hello have nice day"
+        console.log(x15.charAt(12));
+
+        let x16 = " hello Have a nice Day..!";
+        console.log(x16.charCodeAt(12));
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <title>ArrayMethod</title>
+</head>
+<body>
+<script>
+    let course=['html','css','bootstrap','js','react','angular']
+     console.log(course.length);
+
+     let course1=['html','css','bootstrap','js','react','angular']
+     course1.pop();
+     console.log(course1);
+
+     let course2=['html','css','bootstrap','js','react','angular']
+     course2.push('python');
+     console.log(course2);
+
+     let course3=['html','css','bootstrap','js','react','angular']
+     course3.indexOf('node js');
+     console.log(course3);
+
+     let course4=['html','css','bootstrap','js','react','angular']
+     course4.shift()
+     console.log(course4);
+
+     let course5=['html','css','bootstrap','js','react','angular']
+     course5.unshift('Java');
+     console.log(course5);
+
+     let course6=['html','css','bootstrap','js','react','angular']
+     course6.splice(0,1,'html')
+     console.log(course6);
+
+     let course7=['html','css','bootstrap','js','react','angular']
+     course8=['php','java','python','c']
+     console.log(course7.concat(course8));
+     console.log(course7);
+
+     let course9=['html','css','bootstrap','js','react','angular']
+ console.log(course9.includes('React'));
+
+ let course10=['html','css','bootstrap','js','react','angular']
+ console.log(course10.reverse());
+
+ let course11=['html','css','bootstrap','js','react','angular']
+ console.log(course11.toString());
+
+ let course12=['html','css','bootstrap','js','react','angular']
+ console.log(course12.sort());
+
+ let rev=course12.sort();
+ console.log(rev.reverse());
+
+ let course13=[34,56,92,29,11,333,81,96,51];
+console.log(course13.sort(
+     function(p,q){
+        return q-p;
+     }
+));
+
+let rev1=course13.sort();
+ console.log(rev1.reverse());
+
+ let course14=['html','css','bootstrap','js','react','Angular'];
+//console.log(course14.map(course14));
+
+// 1. map
+// 2. filter 
+// 3. every 
+// 4. some
+    
+    
+</script>
+</body>
+</html>
